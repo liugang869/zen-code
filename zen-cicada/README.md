@@ -17,5 +17,5 @@ README
 
 5. run the following command to test zen engine by using YCSB
 
-    ./test_tx number\_of_tuples<e.g. 100000000> request\_per\_transaction<e.g. 10> read\_ratio<e.g. 0.9> ziphian\_theta<e.g. 0.9> transactions\_per\_thread<e.g. 16> number\_of_\thread<e.g.> 16
+    ./test_tx number\_of_tuples<e.g. 100000000> request\_per\_transaction<e.g. 10> read\_ratio<e.g. 0.9> ziphian\_theta<e.g. 0.9> transactions\_per\_thread<e.g. 16> number\_of_\thread<e.g. 16>
 
