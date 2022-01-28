@@ -24,7 +24,7 @@ zen-cicada   | zen prototype based on cicada engine
 zen-dbx1000  | zen prototype based on dbx1000
 LICENSE      | license for zen and its based codebase
 
-Please read zen-cicada/README.md and zen-dbx1000/README.md for detail usage.
+Please read zen-cicada/README.md and zen-dbx1000/README.md for detail usage. 
 
 ## License 
 
