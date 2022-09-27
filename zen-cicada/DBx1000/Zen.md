@@ -9,7 +9,7 @@ We use DBx1000 as the testbed to provide TPCC-NP queries, the backend is Zen-Cic
 2. enter the directory ../cicada-engine, then build the Zen integrated engine.
 
     cd build
-    cmake .. -DZEN=ON
+    cmake ..
     make -j
 
 after the make, libcommon.a should be found in ../cicada-engine/build.
