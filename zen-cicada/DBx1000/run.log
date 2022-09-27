@@ -1,0 +1,1578 @@
+Method: ZEN
+detected CPU frequency = 2.294 GHz
+path= /mnt/mypmem0/liugang/mypmem_0000
+thread count = 16
+NUMA count = 1
+
+MICA initialized
+mem_allocator initialized!
+reading schema file: ./benchmarks/TPCC_full_schema.txt
+DB::activate(): thread_id=6
+DB::activate(): thread_id=0
+DB::activate(): thread_id=7
+DB::activate(): thread_id=9
+DB::activate(): thread_id=8
+DB::activate(): thread_id=11
+DB::activate(): thread_id=15
+DB::activate(): thread_id=13
+DB::activate(): thread_id=10
+DB::activate(): thread_id=12
+DB::activate(): thread_id=2
+DB::activate(): thread_id=5
+DB::activate(): thread_id=14
+DB::activate(): thread_id=3
+DB::activate(): thread_id=1
+DB::activate(): thread_id=4
+init_schema_table: TABLE=WAREHOUSE
+table_t:: init part_cnt=1 
+DB<StaticConfig>::create_table name=WAREHOUSE_0
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 105 bytes
+  rh size: 192 bytes (inlining=yes)
+maximum table size: 1073741824 rows (131072 * 8192)
+
+size=8192 cache_num_=1024 per_thread_=64 front=0 back=8191 victim_mask=63
+thread_id=0 rs=0 re=63 free_row.size()=64 front=63 back=0
+thread_id=1 rs=64 re=127 free_row.size()=64 front=127 back=64
+thread_id=2 rs=128 re=191 free_row.size()=64 front=191 back=128
+thread_id=3 rs=192 re=255 free_row.size()=64 front=255 back=192
+thread_id=4 rs=256 re=319 free_row.size()=64 front=319 back=256
+thread_id=5 rs=320 re=383 free_row.size()=64 front=383 back=320
+thread_id=6 rs=384 re=447 free_row.size()=64 front=447 back=384
+thread_id=7 rs=448 re=511 free_row.size()=64 front=511 back=448
+thread_id=8 rs=512 re=575 free_row.size()=64 front=575 back=512
+thread_id=9 rs=576 re=639 free_row.size()=64 front=639 back=576
+thread_id=10 rs=640 re=703 free_row.size()=64 front=703 back=640
+thread_id=11 rs=704 re=767 free_row.size()=64 front=767 back=704
+thread_id=12 rs=768 re=831 free_row.size()=64 front=831 back=768
+thread_id=13 rs=832 re=895 free_row.size()=64 front=895 back=832
+thread_id=14 rs=896 re=959 free_row.size()=64 front=959 back=896
+thread_id=15 rs=960 re=1023 free_row.size()=64 front=1023 back=960
+
+table_t:init create_table table_name=WAREHOUSE table_size=1024
+tbl_name=WAREHOUSE_0 part_id=0 part_cnt=1
+
+init_schema_table: TABLE=DISTRICT
+table_t:: init part_cnt=1 
+DB<StaticConfig>::create_table name=DISTRICT_0
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 121 bytes
+  rh size: 256 bytes (inlining=yes)
+maximum table size: 536870912 rows (131072 * 4096)
+
+size=4096 cache_num_=1024 per_thread_=64 front=0 back=4095 victim_mask=63
+thread_id=0 rs=0 re=63 free_row.size()=64 front=63 back=0
+thread_id=1 rs=64 re=127 free_row.size()=64 front=127 back=64
+thread_id=2 rs=128 re=191 free_row.size()=64 front=191 back=128
+thread_id=3 rs=192 re=255 free_row.size()=64 front=255 back=192
+thread_id=4 rs=256 re=319 free_row.size()=64 front=319 back=256
+thread_id=5 rs=320 re=383 free_row.size()=64 front=383 back=320
+thread_id=6 rs=384 re=447 free_row.size()=64 front=447 back=384
+thread_id=7 rs=448 re=511 free_row.size()=64 front=511 back=448
+thread_id=8 rs=512 re=575 free_row.size()=64 front=575 back=512
+thread_id=9 rs=576 re=639 free_row.size()=64 front=639 back=576
+thread_id=10 rs=640 re=703 free_row.size()=64 front=703 back=640
+thread_id=11 rs=704 re=767 free_row.size()=64 front=767 back=704
+thread_id=12 rs=768 re=831 free_row.size()=64 front=831 back=768
+thread_id=13 rs=832 re=895 free_row.size()=64 front=895 back=832
+thread_id=14 rs=896 re=959 free_row.size()=64 front=959 back=896
+thread_id=15 rs=960 re=1023 free_row.size()=64 front=1023 back=960
+
+table_t:init create_table table_name=DISTRICT table_size=1024
+tbl_name=DISTRICT_0 part_id=0 part_cnt=1
+
+init_schema_table: TABLE=CUSTOMER
+table_t:: init part_cnt=1 
+DB<StaticConfig>::create_table name=CUSTOMER_0
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 703 bytes
+  rh size: 64 bytes (inlining=no)
+maximum table size: 2147483648 rows (131072 * 16384)
+
+size=131072 cache_num_=131072 per_thread_=8192 front=0 back=131071 victim_mask=8191
+thread_id=0 rs=0 re=8191 free_row.size()=8192 front=8191 back=0
+thread_id=1 rs=8192 re=16383 free_row.size()=8192 front=16383 back=8192
+thread_id=2 rs=16384 re=24575 free_row.size()=8192 front=24575 back=16384
+thread_id=3 rs=24576 re=32767 free_row.size()=8192 front=32767 back=24576
+thread_id=4 rs=32768 re=40959 free_row.size()=8192 front=40959 back=32768
+thread_id=5 rs=40960 re=49151 free_row.size()=8192 front=49151 back=40960
+thread_id=6 rs=49152 re=57343 free_row.size()=8192 front=57343 back=49152
+thread_id=7 rs=57344 re=65535 free_row.size()=8192 front=65535 back=57344
+thread_id=8 rs=65536 re=73727 free_row.size()=8192 front=73727 back=65536
+thread_id=9 rs=73728 re=81919 free_row.size()=8192 front=81919 back=73728
+thread_id=10 rs=81920 re=90111 free_row.size()=8192 front=90111 back=81920
+thread_id=11 rs=90112 re=98303 free_row.size()=8192 front=98303 back=90112
+thread_id=12 rs=98304 re=106495 free_row.size()=8192 front=106495 back=98304
+thread_id=13 rs=106496 re=114687 free_row.size()=8192 front=114687 back=106496
+thread_id=14 rs=114688 re=122879 free_row.size()=8192 front=122879 back=114688
+thread_id=15 rs=122880 re=131071 free_row.size()=8192 front=131071 back=122880
+
+table_t:init create_table table_name=CUSTOMER table_size=480000
+tbl_name=CUSTOMER_0 part_id=0 part_cnt=1
+
+init_schema_table: TABLE=HISTORY
+table_t:: init part_cnt=1 
+DB<StaticConfig>::create_table name=HISTORY_0
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 80 bytes
+  rh size: 192 bytes (inlining=yes)
+maximum table size: 1073741824 rows (131072 * 8192)
+
+size=8192 cache_num_=4096 per_thread_=256 front=0 back=8191 victim_mask=255
+thread_id=0 rs=0 re=255 free_row.size()=256 front=255 back=0
+thread_id=1 rs=256 re=511 free_row.size()=256 front=511 back=256
+thread_id=2 rs=512 re=767 free_row.size()=256 front=767 back=512
+thread_id=3 rs=768 re=1023 free_row.size()=256 front=1023 back=768
+thread_id=4 rs=1024 re=1279 free_row.size()=256 front=1279 back=1024
+thread_id=5 rs=1280 re=1535 free_row.size()=256 front=1535 back=1280
+thread_id=6 rs=1536 re=1791 free_row.size()=256 front=1791 back=1536
+thread_id=7 rs=1792 re=2047 free_row.size()=256 front=2047 back=1792
+thread_id=8 rs=2048 re=2303 free_row.size()=256 front=2303 back=2048
+thread_id=9 rs=2304 re=2559 free_row.size()=256 front=2559 back=2304
+thread_id=10 rs=2560 re=2815 free_row.size()=256 front=2815 back=2560
+thread_id=11 rs=2816 re=3071 free_row.size()=256 front=3071 back=2816
+thread_id=12 rs=3072 re=3327 free_row.size()=256 front=3327 back=3072
+thread_id=13 rs=3328 re=3583 free_row.size()=256 front=3583 back=3328
+thread_id=14 rs=3584 re=3839 free_row.size()=256 front=3839 back=3584
+thread_id=15 rs=3840 re=4095 free_row.size()=256 front=4095 back=3840
+
+table_t:init create_table table_name=HISTORY table_size=16384
+tbl_name=HISTORY_0 part_id=0 part_cnt=1
+
+init_schema_table: TABLE=NEW-ORDER
+table_t:: init part_cnt=1 
+DB<StaticConfig>::create_table name=NEW-ORDER_0
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 24 bytes
+  rh size: 128 bytes (inlining=yes)
+maximum table size: 1073741824 rows (131072 * 8192)
+
+size=8192 cache_num_=4096 per_thread_=256 front=0 back=8191 victim_mask=255
+thread_id=0 rs=0 re=255 free_row.size()=256 front=255 back=0
+thread_id=1 rs=256 re=511 free_row.size()=256 front=511 back=256
+thread_id=2 rs=512 re=767 free_row.size()=256 front=767 back=512
+thread_id=3 rs=768 re=1023 free_row.size()=256 front=1023 back=768
+thread_id=4 rs=1024 re=1279 free_row.size()=256 front=1279 back=1024
+thread_id=5 rs=1280 re=1535 free_row.size()=256 front=1535 back=1280
+thread_id=6 rs=1536 re=1791 free_row.size()=256 front=1791 back=1536
+thread_id=7 rs=1792 re=2047 free_row.size()=256 front=2047 back=1792
+thread_id=8 rs=2048 re=2303 free_row.size()=256 front=2303 back=2048
+thread_id=9 rs=2304 re=2559 free_row.size()=256 front=2559 back=2304
+thread_id=10 rs=2560 re=2815 free_row.size()=256 front=2815 back=2560
+thread_id=11 rs=2816 re=3071 free_row.size()=256 front=3071 back=2816
+thread_id=12 rs=3072 re=3327 free_row.size()=256 front=3327 back=3072
+thread_id=13 rs=3328 re=3583 free_row.size()=256 front=3583 back=3328
+thread_id=14 rs=3584 re=3839 free_row.size()=256 front=3839 back=3584
+thread_id=15 rs=3840 re=4095 free_row.size()=256 front=4095 back=3840
+
+table_t:init create_table table_name=NEW-ORDER table_size=16384
+tbl_name=NEW-ORDER_0 part_id=0 part_cnt=1
+
+init_schema_table: TABLE=ORDER
+table_t:: init part_cnt=1 
+DB<StaticConfig>::create_table name=ORDER_0
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 4096 bytes
+  rh size: 64 bytes (inlining=no)
+maximum table size: 2147483648 rows (131072 * 16384)
+
+size=131072 cache_num_=131072 per_thread_=8192 front=0 back=131071 victim_mask=8191
+thread_id=0 rs=0 re=8191 free_row.size()=8192 front=8191 back=0
+thread_id=1 rs=8192 re=16383 free_row.size()=8192 front=16383 back=8192
+thread_id=2 rs=16384 re=24575 free_row.size()=8192 front=24575 back=16384
+thread_id=3 rs=24576 re=32767 free_row.size()=8192 front=32767 back=24576
+thread_id=4 rs=32768 re=40959 free_row.size()=8192 front=40959 back=32768
+thread_id=5 rs=40960 re=49151 free_row.size()=8192 front=49151 back=40960
+thread_id=6 rs=49152 re=57343 free_row.size()=8192 front=57343 back=49152
+thread_id=7 rs=57344 re=65535 free_row.size()=8192 front=65535 back=57344
+thread_id=8 rs=65536 re=73727 free_row.size()=8192 front=73727 back=65536
+thread_id=9 rs=73728 re=81919 free_row.size()=8192 front=81919 back=73728
+thread_id=10 rs=81920 re=90111 free_row.size()=8192 front=90111 back=81920
+thread_id=11 rs=90112 re=98303 free_row.size()=8192 front=98303 back=90112
+thread_id=12 rs=98304 re=106495 free_row.size()=8192 front=106495 back=98304
+thread_id=13 rs=106496 re=114687 free_row.size()=8192 front=114687 back=106496
+thread_id=14 rs=114688 re=122879 free_row.size()=8192 front=122879 back=114688
+thread_id=15 rs=122880 re=131071 free_row.size()=8192 front=131071 back=122880
+
+table_t:init create_table table_name=ORDER table_size=480000
+tbl_name=ORDER_0 part_id=0 part_cnt=1
+
+init_schema_table: TABLE=ORDER-LINE
+table_t:: init part_cnt=1 
+DB<StaticConfig>::create_table name=ORDER-LINE_0
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 4096 bytes
+  rh size: 64 bytes (inlining=no)
+maximum table size: 2147483648 rows (131072 * 16384)
+
+size=131072 cache_num_=131072 per_thread_=8192 front=0 back=131071 victim_mask=8191
+thread_id=0 rs=0 re=8191 free_row.size()=8192 front=8191 back=0
+thread_id=1 rs=8192 re=16383 free_row.size()=8192 front=16383 back=8192
+thread_id=2 rs=16384 re=24575 free_row.size()=8192 front=24575 back=16384
+thread_id=3 rs=24576 re=32767 free_row.size()=8192 front=32767 back=24576
+thread_id=4 rs=32768 re=40959 free_row.size()=8192 front=40959 back=32768
+thread_id=5 rs=40960 re=49151 free_row.size()=8192 front=49151 back=40960
+thread_id=6 rs=49152 re=57343 free_row.size()=8192 front=57343 back=49152
+thread_id=7 rs=57344 re=65535 free_row.size()=8192 front=65535 back=57344
+thread_id=8 rs=65536 re=73727 free_row.size()=8192 front=73727 back=65536
+thread_id=9 rs=73728 re=81919 free_row.size()=8192 front=81919 back=73728
+thread_id=10 rs=81920 re=90111 free_row.size()=8192 front=90111 back=81920
+thread_id=11 rs=90112 re=98303 free_row.size()=8192 front=98303 back=90112
+thread_id=12 rs=98304 re=106495 free_row.size()=8192 front=106495 back=98304
+thread_id=13 rs=106496 re=114687 free_row.size()=8192 front=114687 back=106496
+thread_id=14 rs=114688 re=122879 free_row.size()=8192 front=122879 back=114688
+thread_id=15 rs=122880 re=131071 free_row.size()=8192 front=131071 back=122880
+
+table_t:init create_table table_name=ORDER-LINE table_size=480000
+tbl_name=ORDER-LINE_0 part_id=0 part_cnt=1
+
+init_schema_table: TABLE=ITEM
+table_t:: init part_cnt=1 
+DB<StaticConfig>::create_table name=ITEM_0
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 98 bytes
+  rh size: 192 bytes (inlining=yes)
+maximum table size: 1073741824 rows (131072 * 8192)
+
+size=262144 cache_num_=262144 per_thread_=16384 front=0 back=262143 victim_mask=16383
+thread_id=0 rs=0 re=16383 free_row.size()=16384 front=16383 back=0
+thread_id=1 rs=16384 re=32767 free_row.size()=16384 front=32767 back=16384
+thread_id=2 rs=32768 re=49151 free_row.size()=16384 front=49151 back=32768
+thread_id=3 rs=49152 re=65535 free_row.size()=16384 front=65535 back=49152
+thread_id=4 rs=65536 re=81919 free_row.size()=16384 front=81919 back=65536
+thread_id=5 rs=81920 re=98303 free_row.size()=16384 front=98303 back=81920
+thread_id=6 rs=98304 re=114687 free_row.size()=16384 front=114687 back=98304
+thread_id=7 rs=114688 re=131071 free_row.size()=16384 front=131071 back=114688
+thread_id=8 rs=131072 re=147455 free_row.size()=16384 front=147455 back=131072
+thread_id=9 rs=147456 re=163839 free_row.size()=16384 front=163839 back=147456
+thread_id=10 rs=163840 re=180223 free_row.size()=16384 front=180223 back=163840
+thread_id=11 rs=180224 re=196607 free_row.size()=16384 front=196607 back=180224
+thread_id=12 rs=196608 re=212991 free_row.size()=16384 front=212991 back=196608
+thread_id=13 rs=212992 re=229375 free_row.size()=16384 front=229375 back=212992
+thread_id=14 rs=229376 re=245759 free_row.size()=16384 front=245759 back=229376
+thread_id=15 rs=245760 re=262143 free_row.size()=16384 front=262143 back=245760
+
+table_t:init create_table table_name=ITEM table_size=1000000
+tbl_name=ITEM_0 part_id=0 part_cnt=1
+
+init_schema_table: TABLE=STOCK
+table_t:: init part_cnt=1 
+DB<StaticConfig>::create_table name=STOCK_0
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 338 bytes
+  rh size: 64 bytes (inlining=no)
+maximum table size: 2147483648 rows (131072 * 16384)
+
+size=524288 cache_num_=524288 per_thread_=32768 front=0 back=524287 victim_mask=32767
+thread_id=0 rs=0 re=32767 free_row.size()=32768 front=32767 back=0
+thread_id=1 rs=32768 re=65535 free_row.size()=32768 front=65535 back=32768
+thread_id=2 rs=65536 re=98303 free_row.size()=32768 front=98303 back=65536
+thread_id=3 rs=98304 re=131071 free_row.size()=32768 front=131071 back=98304
+thread_id=4 rs=131072 re=163839 free_row.size()=32768 front=163839 back=131072
+thread_id=5 rs=163840 re=196607 free_row.size()=32768 front=196607 back=163840
+thread_id=6 rs=196608 re=229375 free_row.size()=32768 front=229375 back=196608
+thread_id=7 rs=229376 re=262143 free_row.size()=32768 front=262143 back=229376
+thread_id=8 rs=262144 re=294911 free_row.size()=32768 front=294911 back=262144
+thread_id=9 rs=294912 re=327679 free_row.size()=32768 front=327679 back=294912
+thread_id=10 rs=327680 re=360447 free_row.size()=32768 front=360447 back=327680
+thread_id=11 rs=360448 re=393215 free_row.size()=32768 front=393215 back=360448
+thread_id=12 rs=393216 re=425983 free_row.size()=32768 front=425983 back=393216
+thread_id=13 rs=425984 re=458751 free_row.size()=32768 front=458751 back=425984
+thread_id=14 rs=458752 re=491519 free_row.size()=32768 front=491519 back=458752
+thread_id=15 rs=491520 re=524287 free_row.size()=32768 front=524287 back=491520
+
+table_t:init create_table table_name=STOCK table_size=1600000
+tbl_name=STOCK_0 part_id=0 part_cnt=1
+
+init_schema_index: index=INDEX=HASH_ITEM_IDX tname=ITEM
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 56 bytes
+  rh size: 128 bytes (inlining=yes)
+maximum table size: 1073741824 rows (131072 * 8192)
+
+idx_name=ITEM_IDX_0 part_id=0 part_cnt=1 bucket_cnt=200000
+init_schema_index: index=INDEX=HASH_WAREHOUSE_IDX tname=WAREHOUSE
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 56 bytes
+  rh size: 128 bytes (inlining=yes)
+maximum table size: 1073741824 rows (131072 * 8192)
+
+idx_name=WAREHOUSE_IDX_0 part_id=0 part_cnt=1 bucket_cnt=32
+init_schema_index: index=INDEX=HASH_DISTRICT_IDX tname=DISTRICT
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 56 bytes
+  rh size: 128 bytes (inlining=yes)
+maximum table size: 1073741824 rows (131072 * 8192)
+
+idx_name=DISTRICT_IDX_0 part_id=0 part_cnt=1 bucket_cnt=320
+init_schema_index: index=INDEX=HASH_CUSTOMER_ID_IDX tname=CUSTOMER
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 56 bytes
+  rh size: 128 bytes (inlining=yes)
+maximum table size: 1073741824 rows (131072 * 8192)
+
+idx_name=CUSTOMER_IDX_0 part_id=0 part_cnt=1 bucket_cnt=960000
+init_schema_index: index=INDEX=HASH_CUSTOMER_LAST_IDX tname=CUSTOMER
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 56 bytes
+  rh size: 128 bytes (inlining=yes)
+maximum table size: 1073741824 rows (131072 * 8192)
+
+idx_name=CUSTOMER_IDX_1 part_id=0 part_cnt=1 bucket_cnt=960000
+init_schema_index: index=INDEX=HASH_STOCK_IDX tname=STOCK
+Table() called
+RowHead size: 32 bytes
+RowVersion size: 40 bytes
+column family 0
+  data size hint: 56 bytes
+  rh size: 128 bytes (inlining=yes)
+maximum table size: 1073741824 rows (131072 * 8192)
+
+idx_name=STOCK_IDX_0 part_id=0 part_cnt=1 bucket_cnt=3200000
+init_schema_index: index=INDEX=ORDERED_ORDER_IDX tname=ORDER
+init_schema_index: index=INDEX=ORDERED_ORDER_CUST_IDX tname=ORDER
+init_schema_index: index=INDEX=ORDERED_NEWORDER_IDX tname=NEW-ORDER
+init_schema_index: index=INDEX=ORDERED_ORDERLINE_IDX tname=ORDER-LINE
+DB::deactivate(): thread_id=6
+DB::deactivate(): thread_id=0
+DB::deactivate(): thread_id=8
+DB::deactivate(): thread_id=9
+DB::deactivate(): thread_id=13
+DB::deactivate(): thread_id=11
+DB::deactivate(): thread_id=4
+DB::deactivate(): thread_id=2
+DB::deactivate(): thread_id=3
+DB::deactivate(): thread_id=1
+DB::deactivate(): thread_id=14
+DB::deactivate(): thread_id=7
+DB::deactivate(): thread_id=5
+DB::deactivate(): thread_id=12
+DB::deactivate(): thread_id=10
+DB::deactivate(): thread_id=15
+TPCC schema initialized
+DB::activate(): thread_id=0
+DB::activate(): thread_id=4
+DB::activate(): thread_id=5
+DB::activate(): thread_id=6
+DB::activate(): thread_id=3
+DB::activate(): thread_id=9
+DB::activate(): thread_id=2
+DB::activate(): thread_id=7
+DB::activate(): thread_id=1
+DB::activate(): thread_id=8
+DB::activate(): thread_id=13
+DB::activate(): thread_id=11
+DB::activate(): thread_id=10
+DB::activate(): thread_id=12
+DB::activate(): thread_id=15
+DB::activate(): thread_id=14
+DB::deactivate(): thread_id=13
+DB::deactivate(): thread_id=4
+DB::deactivate(): thread_id=1
+DB::deactivate(): thread_id=8
+DB::deactivate(): thread_id=5
+DB::deactivate(): thread_id=3
+DB::deactivate(): thread_id=9
+DB::deactivate(): thread_id=2
+DB::deactivate(): thread_id=7
+DB::deactivate(): thread_id=6
+DB::deactivate(): thread_id=12
+DB::deactivate(): thread_id=11
+DB::deactivate(): thread_id=10
+DB::deactivate(): thread_id=14
+DB::deactivate(): thread_id=15
+DB::deactivate(): thread_id=0
+TPCC Data Initialization Complete!
+workload initialized!
+DB::activate(): thread_id=0
+DB::activate(): thread_id=6
+DB::activate(): thread_id=14
+DB::activate(): thread_id=11
+DB::activate(): thread_id=13
+DB::activate(): thread_id=10
+DB::activate(): thread_id=12
+DB::activate(): thread_id=8
+DB::activate(): thread_id=9
+DB::activate(): thread_id=15
+DB::activate(): thread_id=7
+DB::activate(): thread_id=2
+DB::activate(): thread_id=1
+DB::activate(): thread_id=3
+DB::activate(): thread_id=4
+DB::deactivate(): thread_id=10
+DB::deactivate(): thread_id=14
+DB::deactivate(): thread_id=12
+DB::activate(): thread_id=5
+DB::deactivate(): thread_id=13
+DB::deactivate(): thread_id=8
+DB::deactivate(): thread_id=15
+DB::deactivate(): thread_id=11
+DB::deactivate(): thread_id=7
+DB::deactivate(): thread_id=9
+DB::deactivate(): thread_id=1
+DB::deactivate(): thread_id=2
+DB::deactivate(): thread_id=3
+DB::deactivate(): thread_id=6
+DB::deactivate(): thread_id=4
+DB::deactivate(): thread_id=5
+thread  0: table CUSTOMER part 0:
+total row count:     131072
+net row count:       122880
+column family 0
+   i pending:             0
+   i committed:           0
+   i aborted:             0
+   i unused:              0
+  ni pending:             0
+  ni committed:      122880
+  ni aborted:             0
+  total:             122880 (  0.00% overhead)
+  avg chain len: 1.00
+  memory use:        94.372 MB
+  net data:          86.385 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:       11	aep_versions:    30007
+thread_id:        1	aep_pages:       11	aep_versions:    30007
+thread_id:        2	aep_pages:       11	aep_versions:    30007
+thread_id:        3	aep_pages:       11	aep_versions:    30007
+thread_id:        4	aep_pages:       11	aep_versions:    30007
+thread_id:        5	aep_pages:       11	aep_versions:    30007
+thread_id:        6	aep_pages:       11	aep_versions:    30007
+thread_id:        7	aep_pages:       11	aep_versions:    30007
+thread_id:        8	aep_pages:       11	aep_versions:    30007
+thread_id:        9	aep_pages:       11	aep_versions:    30007
+thread_id:       10	aep_pages:       11	aep_versions:    30007
+thread_id:       11	aep_pages:       11	aep_versions:    30007
+thread_id:       12	aep_pages:       11	aep_versions:    30007
+thread_id:       13	aep_pages:       11	aep_versions:    30007
+thread_id:       14	aep_pages:       11	aep_versions:    30007
+thread_id:       15	aep_pages:       11	aep_versions:    30007
+total 2MB pages: 176
+total aep_versions: 480112
+total memory:    349.041 MB
+
+thread  0: table DISTRICT part 0:
+total row count:       4096
+net row count:         3232
+column family 0
+   i pending:             0
+   i committed:         160
+   i aborted:             0
+   i unused:           3936
+  ni pending:             0
+  ni committed:           0
+  ni aborted:             0
+  total:               4096 ( 26.73% overhead)
+  avg chain len: 0.00
+  memory use:         1.049 MB
+  net data:           0.019 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:        1	aep_versions:       10
+thread_id:        1	aep_pages:        1	aep_versions:       10
+thread_id:        2	aep_pages:        1	aep_versions:       10
+thread_id:        3	aep_pages:        1	aep_versions:       10
+thread_id:        4	aep_pages:        1	aep_versions:       10
+thread_id:        5	aep_pages:        1	aep_versions:       10
+thread_id:        6	aep_pages:        1	aep_versions:       10
+thread_id:        7	aep_pages:        1	aep_versions:       10
+thread_id:        8	aep_pages:        1	aep_versions:       10
+thread_id:        9	aep_pages:        1	aep_versions:       10
+thread_id:       10	aep_pages:        1	aep_versions:       10
+thread_id:       11	aep_pages:        1	aep_versions:       10
+thread_id:       12	aep_pages:        1	aep_versions:       10
+thread_id:       13	aep_pages:        1	aep_versions:       10
+thread_id:       14	aep_pages:        1	aep_versions:       10
+thread_id:       15	aep_pages:        1	aep_versions:       10
+total 2MB pages: 16
+total aep_versions: 160
+total memory:      0.023 MB
+
+thread  0: table HISTORY part 0:
+total row count:       8192
+net row count:         8110
+column family 0
+   i pending:             0
+   i committed:        4014
+   i aborted:             0
+   i unused:           4178
+  ni pending:             0
+  ni committed:         174
+  ni aborted:             0
+  total:               8366 (  3.16% overhead)
+  avg chain len: 0.02
+  memory use:         1.595 MB
+  net data:           0.321 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:        2	aep_versions:    30001
+thread_id:        1	aep_pages:        2	aep_versions:    30001
+thread_id:        2	aep_pages:        2	aep_versions:    30001
+thread_id:        3	aep_pages:        2	aep_versions:    30001
+thread_id:        4	aep_pages:        2	aep_versions:    30001
+thread_id:        5	aep_pages:        2	aep_versions:    30001
+thread_id:        6	aep_pages:        2	aep_versions:    30001
+thread_id:        7	aep_pages:        2	aep_versions:    30001
+thread_id:        8	aep_pages:        2	aep_versions:    30001
+thread_id:        9	aep_pages:        2	aep_versions:    30001
+thread_id:       10	aep_pages:        2	aep_versions:    30001
+thread_id:       11	aep_pages:        2	aep_versions:    30001
+thread_id:       12	aep_pages:        2	aep_versions:    30001
+thread_id:       13	aep_pages:        2	aep_versions:    30001
+thread_id:       14	aep_pages:        2	aep_versions:    30001
+thread_id:       15	aep_pages:        2	aep_versions:    30001
+total 2MB pages: 32
+total aep_versions: 480016
+total memory:     49.922 MB
+
+thread  0: table ITEM part 0:
+total row count:     262144
+net row count:        15360
+column family 0
+   i pending:             0
+   i committed:       15360
+   i aborted:             0
+   i unused:         246784
+  ni pending:             0
+  ni committed:           0
+  ni aborted:             0
+  total:             262144 (1606.67% overhead)
+  avg chain len: 0.00
+  memory use:        50.332 MB
+  net data:           1.505 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:        6	aep_versions:   100004
+thread_id:        1	aep_pages:        0	aep_versions:        0
+thread_id:        2	aep_pages:        0	aep_versions:        0
+thread_id:        3	aep_pages:        0	aep_versions:        0
+thread_id:        4	aep_pages:        0	aep_versions:        0
+thread_id:        5	aep_pages:        0	aep_versions:        0
+thread_id:        6	aep_pages:        0	aep_versions:        0
+thread_id:        7	aep_pages:        0	aep_versions:        0
+thread_id:        8	aep_pages:        0	aep_versions:        0
+thread_id:        9	aep_pages:        0	aep_versions:        0
+thread_id:       10	aep_pages:        0	aep_versions:        0
+thread_id:       11	aep_pages:        0	aep_versions:        0
+thread_id:       12	aep_pages:        0	aep_versions:        0
+thread_id:       13	aep_pages:        0	aep_versions:        0
+thread_id:       14	aep_pages:        0	aep_versions:        0
+thread_id:       15	aep_pages:        0	aep_versions:        0
+total 2MB pages: 6
+total aep_versions: 100004
+total memory:     12.200 MB
+
+thread  0: table NEW-ORDER part 0:
+total row count:       8192
+net row count:         7936
+column family 0
+   i pending:             0
+   i committed:        3840
+   i aborted:             0
+   i unused:           4352
+  ni pending:             0
+  ni committed:           0
+  ni aborted:             0
+  total:               8192 (  3.23% overhead)
+  avg chain len: 0.00
+  memory use:         1.049 MB
+  net data:           0.092 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:        1	aep_versions:     9000
+thread_id:        1	aep_pages:        1	aep_versions:     9000
+thread_id:        2	aep_pages:        1	aep_versions:     9000
+thread_id:        3	aep_pages:        1	aep_versions:     9000
+thread_id:        4	aep_pages:        1	aep_versions:     9000
+thread_id:        5	aep_pages:        1	aep_versions:     9000
+thread_id:        6	aep_pages:        1	aep_versions:     9000
+thread_id:        7	aep_pages:        1	aep_versions:     9000
+thread_id:        8	aep_pages:        1	aep_versions:     9000
+thread_id:        9	aep_pages:        1	aep_versions:     9000
+thread_id:       10	aep_pages:        1	aep_versions:     9000
+thread_id:       11	aep_pages:        1	aep_versions:     9000
+thread_id:       12	aep_pages:        1	aep_versions:     9000
+thread_id:       13	aep_pages:        1	aep_versions:     9000
+thread_id:       14	aep_pages:        1	aep_versions:     9000
+thread_id:       15	aep_pages:        1	aep_versions:     9000
+total 2MB pages: 16
+total aep_versions: 144000
+total memory:      6.912 MB
+
+thread  0: table ORDER part 0:
+total row count:     131072
+net row count:       122880
+column family 0
+   i pending:             0
+   i committed:           0
+   i aborted:             0
+   i unused:              0
+  ni pending:             0
+  ni committed:      122880
+  ni aborted:             0
+  total:             122880 (  0.00% overhead)
+  avg chain len: 1.00
+  memory use:        15.729 MB
+  net data:           7.864 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:       59	aep_versions:    30001
+thread_id:        1	aep_pages:       59	aep_versions:    30001
+thread_id:        2	aep_pages:       59	aep_versions:    30001
+thread_id:        3	aep_pages:       59	aep_versions:    30001
+thread_id:        4	aep_pages:       59	aep_versions:    30001
+thread_id:        5	aep_pages:       59	aep_versions:    30001
+thread_id:        6	aep_pages:       59	aep_versions:    30001
+thread_id:        7	aep_pages:       59	aep_versions:    30001
+thread_id:        8	aep_pages:       59	aep_versions:    30001
+thread_id:        9	aep_pages:       59	aep_versions:    30001
+thread_id:       10	aep_pages:       59	aep_versions:    30001
+thread_id:       11	aep_pages:       59	aep_versions:    30001
+thread_id:       12	aep_pages:       59	aep_versions:    30001
+thread_id:       13	aep_pages:       59	aep_versions:    30001
+thread_id:       14	aep_pages:       59	aep_versions:    30001
+thread_id:       15	aep_pages:       59	aep_versions:    30001
+total 2MB pages: 944
+total aep_versions: 480016
+total memory:   1977.666 MB
+
+thread  0: table ORDER-LINE part 0:
+total row count:     131072
+net row count:       122880
+column family 0
+   i pending:             0
+   i committed:           0
+   i aborted:             0
+   i unused:              0
+  ni pending:             0
+  ni committed:      122880
+  ni aborted:             0
+  total:             122880 (  0.00% overhead)
+  avg chain len: 1.00
+  memory use:        23.593 MB
+  net data:          11.796 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:      590	aep_versions:   300160
+thread_id:        1	aep_pages:      591	aep_versions:   300480
+thread_id:        2	aep_pages:      588	aep_versions:   299066
+thread_id:        3	aep_pages:      589	aep_versions:   299670
+thread_id:        4	aep_pages:      589	aep_versions:   299318
+thread_id:        5	aep_pages:      588	aep_versions:   299146
+thread_id:        6	aep_pages:      590	aep_versions:   300054
+thread_id:        7	aep_pages:      591	aep_versions:   300350
+thread_id:        8	aep_pages:      589	aep_versions:   299566
+thread_id:        9	aep_pages:      589	aep_versions:   299390
+thread_id:       10	aep_pages:      590	aep_versions:   300209
+thread_id:       11	aep_pages:      590	aep_versions:   300010
+thread_id:       12	aep_pages:      588	aep_versions:   298899
+thread_id:       13	aep_pages:      590	aep_versions:   300018
+thread_id:       14	aep_pages:      588	aep_versions:   299145
+thread_id:       15	aep_pages:      591	aep_versions:   300543
+total 2MB pages: 9431
+total aep_versions: 4796024
+total memory:  19759.619 MB
+
+thread  0: table STOCK part 0:
+total row count:     524288
+net row count:       491520
+column family 0
+   i pending:             0
+   i committed:           0
+   i aborted:             0
+   i unused:              0
+  ni pending:             0
+  ni committed:      491520
+  ni aborted:             0
+  total:             491520 (  0.00% overhead)
+  avg chain len: 1.00
+  memory use:       188.744 MB
+  net data:         166.134 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:       18	aep_versions:   100004
+thread_id:        1	aep_pages:       18	aep_versions:   100004
+thread_id:        2	aep_pages:       18	aep_versions:   100004
+thread_id:        3	aep_pages:       18	aep_versions:   100004
+thread_id:        4	aep_pages:       18	aep_versions:   100004
+thread_id:        5	aep_pages:       18	aep_versions:   100004
+thread_id:        6	aep_pages:       18	aep_versions:   100004
+thread_id:        7	aep_pages:       18	aep_versions:   100004
+thread_id:        8	aep_pages:       18	aep_versions:   100004
+thread_id:        9	aep_pages:       18	aep_versions:   100004
+thread_id:       10	aep_pages:       18	aep_versions:   100004
+thread_id:       11	aep_pages:       18	aep_versions:   100004
+thread_id:       12	aep_pages:       18	aep_versions:   100004
+thread_id:       13	aep_pages:       18	aep_versions:   100004
+thread_id:       14	aep_pages:       18	aep_versions:   100004
+thread_id:       15	aep_pages:       18	aep_versions:   100004
+total 2MB pages: 288
+total aep_versions: 1600064
+total memory:    579.223 MB
+
+thread  0: table WAREHOUSE part 0:
+total row count:       8192
+net row count:         7184
+column family 0
+   i pending:             0
+   i committed:          16
+   i aborted:             0
+   i unused:           8176
+  ni pending:             0
+  ni committed:           0
+  ni aborted:             0
+  total:               8192 ( 14.03% overhead)
+  avg chain len: 0.00
+  memory use:         1.573 MB
+  net data:           0.002 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:        1	aep_versions:        1
+thread_id:        1	aep_pages:        1	aep_versions:        1
+thread_id:        2	aep_pages:        1	aep_versions:        1
+thread_id:        3	aep_pages:        1	aep_versions:        1
+thread_id:        4	aep_pages:        1	aep_versions:        1
+thread_id:        5	aep_pages:        1	aep_versions:        1
+thread_id:        6	aep_pages:        1	aep_versions:        1
+thread_id:        7	aep_pages:        1	aep_versions:        1
+thread_id:        8	aep_pages:        1	aep_versions:        1
+thread_id:        9	aep_pages:        1	aep_versions:        1
+thread_id:       10	aep_pages:        1	aep_versions:        1
+thread_id:       11	aep_pages:        1	aep_versions:        1
+thread_id:       12	aep_pages:        1	aep_versions:        1
+thread_id:       13	aep_pages:        1	aep_versions:        1
+thread_id:       14	aep_pages:        1	aep_versions:        1
+thread_id:       15	aep_pages:        1	aep_versions:        1
+total 2MB pages: 16
+total aep_versions: 16
+total memory:      0.002 MB
+
+thread  0: index HASH_CUSTOMER_ID_IDX part  0:
+total row count:     524288
+net row count:       524288
+column family 0
+   i pending:             0
+   i committed:      524288
+   i aborted:             0
+   i unused:              0
+  ni pending:             0
+  ni committed:           2
+  ni aborted:             0
+  total:             524290 (  0.00% overhead)
+  avg chain len: 0.00
+  memory use:        67.109 MB
+  net data:          29.360 MB
+
+thread  0: index HASH_CUSTOMER_LAST_IDX part  0:
+total row count:     655360
+net row count:       608298
+column family 0
+   i pending:             0
+   i committed:      608298
+   i aborted:             0
+   i unused:     mem_allocator stats after workload init:
+mem_allocator stats after warmup:
+     47062
+  ni pending:             0
+  ni committed:           2
+  ni aborted:             0
+  total:             655362 (  7.74% overhead)
+  avg chain len: 0.00
+  memory use:        83.886 MB
+  net data:          34.065 MB
+
+thread  0: index HASH_DISTRICT_IDX part  0:
+total row count:       8192
+net row count:          128
+column family 0
+   i pending:             0
+   i committed:         128
+   i aborted:             0
+   i unused:           8064
+  ni pending:             0
+  ni committed:           2
+  ni aborted:             0
+  total:               8194 (6301.56% overhead)
+  avg chain len: 0.02
+  memory use:         1.049 MB
+  net data:           0.007 MB
+
+thread  0: index HASH_ITEM_IDX part  0:
+total row count:     131072
+net row count:       131072
+column family 0
+   i pending:             0
+   i committed:      131072
+   i aborted:             0
+   i unused:              0
+  ni pending:             0
+  ni committed:           2
+  ni aborted:             0
+  total:             131074 (  0.00% overhead)
+  avg chain len: 0.00
+  memory use:        16.777 MB
+  net data:           7.340 MB
+
+thread  0: index HASH_STOCK_IDX part  0:
+total row count:    2097152
+net row count:      2097152
+column family 0
+   i pending:             0
+   i committed:     2097152
+   i aborted:             0
+   i unused:              0
+  ni pending:             0
+  ni committed:           2
+  ni aborted:             0
+  total:            2097154 (  0.00% overhead)
+  avg chain len: 0.00
+  memory use:       268.436 MB
+  net data:         117.441 MB
+
+thread  0: index HASH_WAREHOUSE_IDX part  0:
+total row count:       8192
+net row count:           16
+column family 0
+   i pending:             0
+   i committed:          16
+   i aborted:             0
+   i unused:           8176
+  ni pending:             0
+  ni committed:           2
+  ni aborted:             0
+  total:               8194 (51112.50% overhead)
+  avg chain len: 0.12
+  memory use:         1.049 MB
+  net data:           0.001 MB
+
+DB::deactivate(): thread_id=0
+MICA tables renewed
+Query Queue Init Time 0.077464
+query_queue initialized!
+WARMUP start!
+DB::activate(): thread_id=6
+DB::activate(): thread_id=7
+DB::activate(): thread_id=8
+DB::activate(): thread_id=9
+DB::activate(): thread_id=10
+DB::activate(): thread_id=11
+DB::activate(): thread_id=12
+DB::activate(): thread_id=13
+DB::activate(): thread_id=14
+DB::activate(): thread_id=15
+DB::activate(): thread_id=5
+DB::activate(): thread_id=4
+DB::activate(): thread_id=3
+DB::activate(): thread_id=2
+DB::activate(): thread_id=0
+DB::activate(): thread_id=1
+DB::deactivate(): thread_id=2
+DB::deactivate(): thread_id=1
+DB::deactivate(): thread_id=7
+DB::deactivate(): thread_id=12
+DB::deactivate(): thread_id=3
+DB::deactivate(): thread_id=13
+DB::deactivate(): thread_id=4
+DB::deactivate(): thread_id=8
+DB::deactivate(): thread_id=5
+DB::deactivate(): thread_id=11
+DB::deactivate(): thread_id=6
+DB::deactivate(): thread_id=10
+DB::deactivate(): thread_id=14
+DB::deactivate(): thread_id=15
+DB::deactivate(): thread_id=9
+DB::deactivate(): thread_id=0
+WARMUP finished!
+DB::activate(): thread_id=13
+DB::activate(): thread_id=7
+DB::activate(): thread_id=8
+DB::activate(): thread_id=11
+DB::activate(): thread_id=12
+DB::activate(): thread_id=5
+DB::activate(): thread_id=9
+DB::activate(): thread_id=6
+DB::activate(): thread_id=15
+DB::activate(): thread_id=14
+DB::activate(): thread_id=10
+DB::activate(): thread_id=4
+DB::activate(): thread_id=3
+DB::activate(): thread_id=2
+DB::activate(): thread_id=1
+DB::activate(): thread_id=0
+DB::deactivate(): thread_id=2
+DB::deactivate(): thread_id=4
+DB::deactivate(): thread_id=5
+DB::deactivate(): thread_id=12
+DB::deactivate(): thread_id=9
+DB::deactivate(): thread_id=11
+DB::deactivate(): thread_id=6
+DB::deactivate(): thread_id=15
+DB::deactivate(): thread_id=0
+DB::deactivate(): thread_id=13
+DB::deactivate(): thread_id=7
+DB::deactivate(): thread_id=8
+DB::deactivate(): thread_id=10
+DB::deactivate(): thread_id=1
+DB::deactivate(): thread_id=14
+DB::deactivate(): thread_id=3
+PASS! SimTime = 646717044
+[tid=0] txn_cnt=49072,abort_cnt=2
+[tid=1] txn_cnt=49646,abort_cnt=1
+[tid=2] txn_cnt=50000,abort_cnt=4
+[tid=3] txn_cnt=49695,abort_cnt=2
+[tid=4] txn_cnt=49716,abort_cnt=2
+[tid=5] txn_cnt=49582,abort_cnt=0
+[tid=6] txn_cnt=49920,abort_cnt=5
+[tid=7] txn_cnt=49804,abort_cnt=3
+[tid=8] txn_cnt=49879,abort_cnt=3
+[tid=9] txn_cnt=48877,abort_cnt=1
+[tid=10] txn_cnt=49947,abort_cnt=1
+[tid=11] txn_cnt=49694,abort_cnt=1
+[tid=12] txn_cnt=49932,abort_cnt=1
+[tid=13] txn_cnt=49515,abort_cnt=3
+[tid=14] txn_cnt=49858,abort_cnt=2
+[tid=15] txn_cnt=49621,abort_cnt=1
+[summary] txn_cnt=794758, abort_cnt=32, run_time=0.000000, time_wait=0.000000, time_ts_alloc=0.000000, time_man=0.000000, time_index=0.000000, time_abort=0.000000, time_cleanup=0.000000, latency=0.000000, deadlock_cnt=0, cycle_detect=0, dl_detect_time=0.000000, dl_wait_time=0.000000, time_query=0.000000, debug1=0.000000, debug2=0.000000, debug3=0.000000, debug4=0.000000, debug5=0.000000
+[summary] payment      ( 397162,       0)
+[summary] new_order    ( 397596,      32)
+[summary] order_status (      0,       0)
+[summary] delivery     (      0,       0)
+[summary] stock_level  (      0,       0)
+[summary] tput=1228911
+page_used:                    817 pages
+memory_size:                    1.713 GB
+aep_page_used:                11077 pages
+aep_memory_size:               23.230 GB
+aep_clwb_cnt:                  88.187 M
+aep_sfence_cnt:                17.963 M
+aep_persist_size:               4.111 GB
+elapsed:                        0.647 sec
+
+transactions:                  794790 (  1.229 M/sec)
+committed:                     794758 (  1.229 M/sec; 100.00% attempts,  99.99% time)
+aborted: get_row:                   0 (  0.000 M/sec;   0.00% attempts,   0.00% time)
+aborted: pre_validation:            0 (  0.000 M/sec;   0.00% attempts,   0.00% time)
+aborted: d_version_insert:          0 (  0.000 M/sec;   0.00% attempts,   0.00% time)
+aborted: main_validation:          32 (  0.000 M/sec;   0.00% attempts,   0.01% time)
+aborted: logging:                   0 (  0.000 M/sec;   0.00% attempts,   0.00% time)
+aborted: application:               0 (  0.000 M/sec;   0.00% attempts,   0.00% time)
+
+commit count: 49072 49646 50000 49695 49716 49582 49920 49804 49879 48877 49947 49694 49932 49515 49858 49621
+commit rate (%): 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0
+
+inter-commit latency (us): min=1, max=246, avg=12; 50-th=12, 95-th=25, 99-th=30, 99.9-th=36
+
+table CUSTOMER part 0:
+total row count:     131072
+net row count:       122933
+column family 0
+   i pending:             0
+   i committed:           0
+   i aborted:             0
+   i unused:              0
+  ni pending:             0
+  ni committed:      123034
+  ni aborted:             0
+  total:             123034 (  0.08% overhead)
+  avg chain len: 1.00
+  memory use:        94.490 MB
+  net data:          86.422 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:       14	aep_versions:    39151
+thread_id:        1	aep_pages:       14	aep_versions:    39285
+thread_id:        2	aep_pages:       14	aep_versions:    39331
+thread_id:        3	aep_pages:       14	aep_versions:    39406
+thread_id:        4	aep_pages:       14	aep_versions:    39294
+thread_id:        5	aep_pages:       14	aep_versions:    39299
+thread_id:        6	aep_pages:       14	aep_versions:    39398
+thread_id:        7	aep_pages:       14	aep_versions:    39362
+thread_id:        8	aep_pages:       14	aep_versions:    39306
+thread_id:        9	aep_pages:       14	aep_versions:    39191
+thread_id:       10	aep_pages:       14	aep_versions:    39337
+thread_id:       11	aep_pages:       14	aep_versions:    39307
+thread_id:       12	aep_pages:       14	aep_versions:    39367
+thread_id:       13	aep_pages:       14	aep_versions:    39308
+thread_id:       14	aep_pages:       14	aep_versions:    39303
+thread_id:       15	aep_pages:       14	aep_versions:    39345
+total 2MB pages: 224
+total aep_versions: 628990
+total memory:    457.276 MB
+
+table DISTRICT part 0:
+total row count:       4096
+net row count:         3232
+column family 0
+   i pending:             0
+   i committed:         105
+   i aborted:             0
+   i unused:           3991
+  ni pending:             0
+  ni committed:         199
+  ni aborted:             0
+  total:               4295 ( 32.89% overhead)
+  avg chain len: 0.06
+  memory use:         1.087 MB
+  net data:           0.019 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:        1	aep_versions:       49
+thread_id:        1	aep_pages:        1	aep_versions:       54
+thread_id:        2	aep_pages:        1	aep_versions:       48
+thread_id:        3	aep_pages:        1	aep_versions:       51
+thread_id:        4	aep_pages:        1	aep_versions:       40
+thread_id:        5	aep_pages:        1	aep_versions:       44
+thread_id:        6	aep_pages:        1	aep_versions:       45
+thread_id:        7	aep_pages:        1	aep_versions:       46
+thread_id:        8	aep_pages:        1	aep_versions:       45
+thread_id:        9	aep_pages:        1	aep_versions:       47
+thread_id:       10	aep_pages:        1	aep_versions:       46
+thread_id:       11	aep_pages:        1	aep_versions:       57
+thread_id:       12	aep_pages:        1	aep_versions:       51
+thread_id:       13	aep_pages:        1	aep_versions:       45
+thread_id:       14	aep_pages:        1	aep_versions:       44
+thread_id:       15	aep_pages:        1	aep_versions:       47
+total 2MB pages: 16
+total aep_versions: 759
+total memory:      0.110 MB
+
+table HISTORY part 0:
+total row count:       8192
+net row count:         7936
+column family 0
+   i pending:             0
+   i committed:        3840
+   i aborted:             0
+   i unused:           4352
+  ni pending:             0
+  ni committed:           0
+  ni aborted:             0
+  total:               8192 (  3.23% overhead)
+  avg chain len: 0.00
+  memory use:         1.573 MB
+  net data:           0.307 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:        2	aep_versions:    30001
+thread_id:        1	aep_pages:        2	aep_versions:    30001
+thread_id:        2	aep_pages:        2	aep_versions:    30001
+thread_id:        3	aep_pages:        2	aep_versions:    30001
+thread_id:        4	aep_pages:        2	aep_versions:    30001
+thread_id:        5	aep_pages:        2	aep_versions:    30001
+thread_id:        6	aep_pages:        2	aep_versions:    30001
+thread_id:        7	aep_pages:        2	aep_versions:    30001
+thread_id:        8	aep_pages:        2	aep_versions:    30001
+thread_id:        9	aep_pages:        2	aep_versions:    30001
+thread_id:       10	aep_pages:        2	aep_versions:    30001
+thread_id:       11	aep_pages:        2	aep_versions:    30001
+thread_id:       12	aep_pages:        2	aep_versions:    30001
+thread_id:       13	aep_pages:        2	aep_versions:    30001
+thread_id:       14	aep_pages:        2	aep_versions:    30001
+thread_id:       15	aep_pages:        2	aep_versions:    30001
+total 2MB pages: 32
+total aep_versions: 480016
+total memory:     49.922 MB
+
+table ITEM part 0:
+total row count:     262144
+net row count:        87167
+column family 0
+   i pending:             0
+   i committed:       87167
+   i aborted:             0
+   i unused:         174977
+  ni pending:             0
+  ni committed:           0
+  ni aborted:             6
+  total:             262150 (200.74% overhead)
+  avg chain len: 0.00
+  memory use:        50.333 MB
+  net data:           8.542 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:        6	aep_versions:   100004
+thread_id:        1	aep_pages:        0	aep_versions:        0
+thread_id:        2	aep_pages:        0	aep_versions:        0
+thread_id:        3	aep_pages:        0	aep_versions:        0
+thread_id:        4	aep_pages:        0	aep_versions:        0
+thread_id:        5	aep_pages:        0	aep_versions:        0
+thread_id:        6	aep_pages:        0	aep_versions:        0
+thread_id:        7	aep_pages:        0	aep_versions:        0
+thread_id:        8	aep_pages:        0	aep_versions:        0
+thread_id:        9	aep_pages:        0	aep_versions:        0
+thread_id:       10	aep_pages:        0	aep_versions:        0
+thread_id:       11	aep_pages:        0	aep_versions:        0
+thread_id:       12	aep_pages:        0	aep_versions:        0
+thread_id:       13	aep_pages:        0	aep_versions:        0
+thread_id:       14	aep_pages:        0	aep_versions:        0
+thread_id:       15	aep_pages:        0	aep_versions:        0
+total 2MB pages: 6
+total aep_versions: 100004
+total memory:     12.200 MB
+
+table NEW-ORDER part 0:
+total row count:       8192
+net row count:         7936
+column family 0
+   i pending:             0
+   i committed:        3840
+   i aborted:             0
+   i unused:           4352
+  ni pending:             0
+  ni committed:           0
+  ni aborted:             0
+  total:               8192 (  3.23% overhead)
+  avg chain len: 0.00
+  memory use:         1.049 MB
+  net data:           0.092 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:        1	aep_versions:     9000
+thread_id:        1	aep_pages:        1	aep_versions:     9000
+thread_id:        2	aep_pages:        1	aep_versions:     9000
+thread_id:        3	aep_pages:        1	aep_versions:     9000
+thread_id:        4	aep_pages:        1	aep_versions:     9000
+thread_id:        5	aep_pages:        1	aep_versions:     9000
+thread_id:        6	aep_pages:        1	aep_versions:     9000
+thread_id:        7	aep_pages:        1	aep_versions:     9000
+thread_id:        8	aep_pages:        1	aep_versions:     9000
+thread_id:        9	aep_pages:        1	aep_versions:     9000
+thread_id:       10	aep_pages:        1	aep_versions:     9000
+thread_id:       11	aep_pages:        1	aep_versions:     9000
+thread_id:       12	aep_pages:        1	aep_versions:     9000
+thread_id:       13	aep_pages:        1	aep_versions:     9000
+thread_id:       14	aep_pages:        1	aep_versions:     9000
+thread_id:       15	aep_pages:        1	aep_versions:     9000
+total 2MB pages: 16
+total aep_versions: 144000
+total memory:      6.912 MB
+
+table ORDER part 0:
+total row count:     131072
+net row count:       122880
+column family 0
+   i pending:             0
+   i committed:           0
+   i aborted:             0
+   i unused:              0
+  ni pending:             0
+  ni committed:      122880
+  ni aborted:             0
+  total:             122880 (  0.00% overhead)
+  avg chain len: 1.00
+  memory use:        15.729 MB
+  net data:           7.864 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:       59	aep_versions:    30001
+thread_id:        1	aep_pages:       59	aep_versions:    30001
+thread_id:        2	aep_pages:       59	aep_versions:    30001
+thread_id:        3	aep_pages:       59	aep_versions:    30001
+thread_id:        4	aep_pages:       59	aep_versions:    30001
+thread_id:        5	aep_pages:       59	aep_versions:    30001
+thread_id:        6	aep_pages:       59	aep_versions:    30001
+thread_id:        7	aep_pages:       59	aep_versions:    30001
+thread_id:        8	aep_pages:       59	aep_versions:    30001
+thread_id:        9	aep_pages:       59	aep_versions:    30001
+thread_id:       10	aep_pages:       59	aep_versions:    30001
+thread_id:       11	aep_pages:       59	aep_versions:    30001
+thread_id:       12	aep_pages:       59	aep_versions:    30001
+thread_id:       13	aep_pages:       59	aep_versions:    30001
+thread_id:       14	aep_pages:       59	aep_versions:    30001
+thread_id:       15	aep_pages:       59	aep_versions:    30001
+total 2MB pages: 944
+total aep_versions: 480016
+total memory:   1977.666 MB
+
+table ORDER-LINE part 0:
+total row count:     131072
+net row count:       122880
+column family 0
+   i pending:             0
+   i committed:           0
+   i aborted:             0
+   i unused:              0
+  ni pending:             0
+  ni committed:      122880
+  ni aborted:             0
+  total:             122880 (  0.00% overhead)
+  avg chain len: 1.00
+  memory use:        23.593 MB
+  net data:          11.796 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:      590	aep_versions:   300160
+thread_id:        1	aep_pages:      591	aep_versions:   300480
+thread_id:        2	aep_pages:      588	aep_versions:   299066
+thread_id:        3	aep_pages:      589	aep_versions:   299670
+thread_id:        4	aep_pages:      589	aep_versions:   299318
+thread_id:        5	aep_pages:      588	aep_versions:   299146
+thread_id:        6	aep_pages:      590	aep_versions:   300054
+thread_id:        7	aep_pages:      591	aep_versions:   300350
+thread_id:        8	aep_pages:      589	aep_versions:   299566
+thread_id:        9	aep_pages:      589	aep_versions:   299390
+thread_id:       10	aep_pages:      590	aep_versions:   300209
+thread_id:       11	aep_pages:      590	aep_versions:   300010
+thread_id:       12	aep_pages:      588	aep_versions:   298899
+thread_id:       13	aep_pages:      590	aep_versions:   300018
+thread_id:       14	aep_pages:      588	aep_versions:   299145
+thread_id:       15	aep_pages:      591	aep_versions:   300543
+total 2MB pages: 9431
+total aep_versions: 4796024
+total memory:  19759.619 MB
+
+table STOCK part 0:
+total row count:     524288
+net row count:       491629
+column family 0
+   i pending:             0
+   i committed:           0
+   i aborted:             0
+   i unused:              0
+  ni pending:             0
+  ni committed:      492444
+  ni aborted:             2
+  total:             492446 (  0.17% overhead)
+  avg chain len: 1.00
+  memory use:       189.099 MB
+  net data:         166.171 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:       24	aep_versions:   138594
+thread_id:        1	aep_pages:       24	aep_versions:   138772
+thread_id:        2	aep_pages:       25	aep_versions:   139338
+thread_id:        3	aep_pages:       25	aep_versions:   139046
+thread_id:        4	aep_pages:       25	aep_versions:   139220
+thread_id:        5	aep_pages:       24	aep_versions:   138722
+thread_id:        6	aep_pages:       25	aep_versions:   139283
+thread_id:        7	aep_pages:       24	aep_versions:   138723
+thread_id:        8	aep_pages:       25	aep_versions:   139557
+thread_id:        9	aep_pages:       24	aep_versions:   138506
+thread_id:       10	aep_pages:       25	aep_versions:   139192
+thread_id:       11	aep_pages:       24	aep_versions:   138783
+thread_id:       12	aep_pages:       24	aep_versions:   138901
+thread_id:       13	aep_pages:       25	aep_versions:   139227
+thread_id:       14	aep_pages:       24	aep_versions:   138973
+thread_id:       15	aep_pages:       24	aep_versions:   138926
+total 2MB pages: 391
+total aep_versions: 2223763
+total memory:    805.002 MB
+
+table WAREHOUSE part 0:
+total row count:       8192
+net row count:         7184
+column family 0
+   i pending:             0
+   i committed:          12
+   i aborted:             0
+   i unused:           8180
+  ni pending:             0
+  ni committed:          71
+  ni aborted:             0
+  total:               8263 ( 15.02% overhead)
+  avg chain len: 0.01
+  memory use:         1.586 MB
+  net data:           0.002 MB
+
+AepTable Status:
+thread_id:        0	aep_pages:        1	aep_versions:       26
+thread_id:        1	aep_pages:        1	aep_versions:       23
+thread_id:        2	aep_pages:        1	aep_versions:       20
+thread_id:        3	aep_pages:        1	aep_versions:       18
+thread_id:        4	aep_pages:        1	aep_versions:       16
+thread_id:        5	aep_pages:        1	aep_versions:       17
+thread_id:        6	aep_pages:        1	aep_versions:       16
+thread_id:        7	aep_pages:        1	aep_versions:       20
+thread_id:        8	aep_pages:        1	aep_versions:       18
+thread_id:        9	aep_pages:        1	aep_versions:       16
+thread_id:       10	aep_pages:        1	aep_versions:       19
+thread_id:       11	aep_pages:        1	aep_versions:       17
+thread_id:       12	aep_pages:        1	aep_versions:       24
+thread_id:       13	aep_pages:        1	aep_versions:       19
+thread_id:       14	aep_pages:        1	aep_versions:       23
+thread_id:       15	aep_pages:        1	aep_versions:       26
+total 2MB pages: 16
+total aep_versions: 318
+total memory:      0.041 MB
+
+memory row version pool:
+row version class 0 (64 bytes):
+  in use:                 1 rows     (  0.000 GB)
+    free:            131071 rows     (  0.008 GB)
+   total:            131072 rows     (  0.008 GB)
+  shared pool 0:          0 rows free
+  local pool  0:       8192 rows free
+  local pool  1:       8192 rows free
+  local pool  2:       8192 rows free
+  local pool  3:       8192 rows free
+  local pool  4:       8192 rows free
+  local pool  5:       8192 rows free
+  local pool  6:       8192 rows free
+  local pool  7:       8192 rows free
+  local pool  8:       8192 rows free
+  local pool  9:       8192 rows free
+  local pool 10:       8192 rows free
+  local pool 11:       8192 rows free
+  local pool 12:       8192 rows free
+  local pool 13:       8192 rows free
+  local pool 14:       8191 rows free
+  local pool 15:       8192 rows free
+
+row version class 1 (128 bytes):
+  in use:           1064945 rows     (  0.136 GB)
+    free:             65551 rows     (  0.008 GB)
+   total:           1130496 rows     (  0.145 GB)
+  shared pool 0:          0 rows free
+  local pool  0:       2410 rows free
+  local pool  1:       4282 rows free
+  local pool  2:       4338 rows free
+  local pool  3:       4094 rows free
+  local pool  4:       4238 rows free
+  local pool  5:       4268 rows free
+  local pool  6:       4084 rows free
+  local pool  7:       4009 rows free
+  local pool  8:       4270 rows free
+  local pool  9:       4562 rows free
+  local pool 10:       4110 rows free
+  local pool 11:       4220 rows free
+  local pool 12:       4296 rows free
+  local pool 13:       4200 rows free
+  local pool 14:       4121 rows free
+  local pool 15:       4049 rows free
+
+row version class 2 (192 bytes):
+  in use:            123156 rows     (  0.024 GB)
+    free:             84362 rows     (  0.016 GB)
+   total:            207518 rows     (  0.040 GB)
+  shared pool 0:       9216 rows free
+  local pool  0:        494 rows free
+  local pool  1:       7651 rows free
+  local pool  2:        494 rows free
+  local pool  3:       8347 rows free
+  local pool  4:        491 rows free
+  local pool  5:        495 rows free
+  local pool  6:       7660 rows free
+  local pool  7:       7668 rows free
+  local pool  8:       7659 rows free
+  local pool  9:        494 rows free
+  local pool 10:       8347 rows free
+  local pool 11:        496 rows free
+  local pool 12:       8007 rows free
+  local pool 13:       8350 rows free
+  local pool 14:       8002 rows free
+  local pool 15:        491 rows free
+
+row version class 5 (384 bytes):
+  in use:            492446 rows     (  0.189 GB)
+    free:             91881 rows     (  0.035 GB)
+   total:            584327 rows     (  0.224 GB)
+  shared pool 0:       2048 rows free
+  local pool  0:       5390 rows free
+  local pool  1:       6767 rows free
+  local pool  2:       5397 rows free
+  local pool  3:       6077 rows free
+  local pool  4:       5408 rows free
+  local pool  5:       5400 rows free
+  local pool  6:       5401 rows free
+  local pool  7:       6106 rows free
+  local pool  8:       4023 rows free
+  local pool  9:       6078 rows free
+  local pool 10:       4710 rows free
+  local pool 11:       6074 rows free
+  local pool 12:       6751 rows free
+  local pool 13:       6113 rows free
+  local pool 14:       6106 rows free
+  local pool 15:       4032 rows free
+
+row version class 11 (768 bytes):
+  in use:            123034 rows     (  0.094 GB)
+    free:            111746 rows     (  0.086 GB)
+   total:            234780 rows     (  0.180 GB)
+  shared pool 0:       2048 rows free
+  local pool  0:       6645 rows free
+  local pool  1:       6976 rows free
+  local pool  2:       7325 rows free
+  local pool  3:       6649 rows free
+  local pool  4:       6297 rows free
+  local pool  5:       6982 rows free
+  local pool  6:       6641 rows free
+  local pool  7:       7331 rows free
+  local pool  8:       6980 rows free
+  local pool  9:       7326 rows free
+  local pool 10:       6986 rows free
+  local pool 11:       6298 rows free
+  local pool 12:       6644 rows free
+  local pool 13:       6992 rows free
+  local pool 14:       6302 rows free
+  local pool 15:       7324 rows free
+
+aep row version pool:
+PagePool aep_only=0
+  in use     :   1.713 GB
+  in use dram:   1.713 GB
+  in use dcpm:   0.000 GB
+  aep-as-dram:   0.000 GB
+PagePool aep_only=1
+  in usemem_allocator stats after main processing:
+     :  23.230 GB
+  in use dram:   0.000 GB
+  in use dcpm:  23.230 GB
+  aep-as-dram:   0.000 GB
+LatencyStart
+   1     37
+   2  15698
+   3  46315
+   4  58221
+   5  52505
+   6  40607
+   7  34536
+   8  34108
+   9  36389
+  10  38567
+  11  39013
+  12  37191
+  13  34305
+  14  32252
+  15  30075
+  16  29620
+  17  28991
+  18  28010
+  19  26723
+  20  25007
+  21  22713
+  22  20017
+  23  17460
+  24  14846
+  25  12245
+  26  10094
+  27   7876
+  28   6171
+  29   4594
+  30   3402
+  31   2368
+  32   1644
+  33   1037
+  34    718
+  35    399
+  36    300
+  37    180
+  38    125
+  39     86
+  40     49
+  41     35
+  42     16
+  43     26
+  44     15
+  45     14
+  46      8
+  47      7
+  48      3
+  49      8
+  50      5
+  51      3
+  52      3
+  53      3
+  54      2
+  55      1
+  56      1
+  58      5
+  59      2
+  61      2
+  65      2
+  66      3
+  68      2
+  69      1
+  70      4
+  71      1
+  72      4
+  73      2
+  74      1
+  75      1
+  76      1
+  77      4
+  79      2
+  80      2
+  81      5
+  83      1
+  84      3
+  85      4
+  86      1
+  87      3
+  88      1
+  89      3
+  90      2
+  92      1
+  93      1
+  94      1
+  96      1
+  97      1
+  99      2
+ 100      1
+ 101      1
+ 102      1
+ 106      1
+ 107      1
+ 124      1
+ 127      1
+ 132      1
+ 138      1
+ 162      1
+ 172      1
+ 188      1
+ 192      1
+ 204      1
+ 206      2
+ 208      3
+ 210      1
+ 216      1
+ 218      1
+ 220      1
+ 222      1
+ 226      1
+ 238      1
+ 242      1
+ 246      2
+LatencyEnd
