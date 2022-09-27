@@ -28,3 +28,7 @@ after the make, rundb should be found in ./DBx1000.
 
 the configuration in config.h can be modification following the ./DBx1000/README.
 
+5. run the following command to test Zen engine by using TPCC-NP
+
+    ./rundb
+
