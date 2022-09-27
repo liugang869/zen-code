@@ -12,7 +12,7 @@ README
 
 4. run the following command to build Zen engine
 
-    cmake .. -DZEN=ON
+    cmake ..
     make -j
 
 5. run the following command to test Zen engine by using YCSB
