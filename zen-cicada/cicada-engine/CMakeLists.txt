@@ -15,7 +15,7 @@ OPTION(LTO "Use link time optimization" OFF)
 
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/src)
 
-ADD_DEFINITIONS(-std=c++14)
+ADD_DEFINITIONS(-std=c++17)
 ADD_DEFINITIONS(-Wall -Wextra)
 ADD_DEFINITIONS(-Wzero-as-null-pointer-constant)
 ADD_DEFINITIONS(-Wsign-conversion)
@@ -103,8 +103,11 @@ IF(LTO)
 #  ADD_EXECUTABLE(test_tsc_sync src/mica/test/test_tsc_sync.cc ${SOURCES})
 #  TARGET_LINK_LIBRARIES(test_tsc_sync ${LIBRARIES})
 
-  ADD_EXECUTABLE(test_tx src/mica/test/test_tx.cc ${SOURCES})
-  TARGET_LINK_LIBRARIES(test_tx ${LIBRARIES})
+  ADD_EXECUTABLE(test_ycsb src/mica/test/test_ycsb.cc ${SOURCES})
+  TARGET_LINK_LIBRARIES(test_ycsb ${LIBRARIES})
+
+  ADD_EXECUTABLE(test_tpcc src/mica/test/test_tpcc.cc ${SOURCES})
+  TARGET_LINK_LIBRARIES(test_tpcc ${LIBRARIES})
 
 #  ADD_EXECUTABLE(test_tx_index src/mica/test/test_tx_index.cc ${SOURCES})
 #  TARGET_LINK_LIBRARIES(test_tx_index ${LIBRARIES})
@@ -119,8 +122,11 @@ ELSE(LTO)
 #  ADD_EXECUTABLE(test_tsc_sync src/mica/test/test_tsc_sync.cc ${SOURCES})
 #  TARGET_LINK_LIBRARIES(test_tsc_sync ${LIBRARIES})
 
-  ADD_EXECUTABLE(test_tx src/mica/test/test_tx.cc ${SOURCES})
-  TARGET_LINK_LIBRARIES(test_tx ${LIBRARIES})
+  ADD_EXECUTABLE(test_ycsb src/mica/test/test_ycsb.cc ${SOURCES})
+  TARGET_LINK_LIBRARIES(test_ycsb ${LIBRARIES})
+
+  ADD_EXECUTABLE(test_tpcc src/mica/test/test_tpcc.cc ${SOURCES})
+  TARGET_LINK_LIBRARIES(test_tpcc ${LIBRARIES})
 
 #  ADD_EXECUTABLE(test_tpcc src/mica/test/test_tpcc.cc ${SOURCES})
 #  TARGET_LINK_LIBRARIES(test_tpcc ${LIBRARIES})

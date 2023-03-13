@@ -1,4 +1,0 @@
-[submodule "masstree"]
-	path = masstree
-	url = https://github.com/efficient/cicada-exp-sigmod2017-silo-masstree-beta.git
-	branch = silo
